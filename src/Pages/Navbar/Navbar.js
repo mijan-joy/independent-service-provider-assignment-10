@@ -25,12 +25,12 @@ const Navbar = () => {
                                     <h2>+123 456 7890</h2>
                                     <p>Call Us For Free Consultation</p>
                                 </div>
-                                <div class="social">
+                                {/* <div class="social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
                                     <a href=""><i class="fab fa-linkedin-in"></i></a>
                                     <a href=""><i class="fab fa-instagram"></i></a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
