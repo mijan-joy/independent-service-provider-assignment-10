@@ -8,10 +8,10 @@ import './Experts.css';
 
 
 const experts =[
-    {id: 1, name: 'Will Smith', img: expert1},
-    {id: 2, name: 'John Smith', img: expert2},
-    {id: 3, name: 'Doe Smith', img: expert3},
-    {id: 4, name: 'Messi Smith', img: expert4},
+    {id: 1, name: 'Will Smith',description: 'Business Consultant', img: expert1},
+    {id: 2, name: 'John Smith',description: 'Criminal Consultant', img: expert2},
+    {id: 3, name: 'Gloria Edwards', description: 'Divorce Consultant', img: expert3},
+    {id: 4, name: 'Messi Smith',description: 'Immigration Consultant', img: expert4},
     
 ]
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './Expert.css';
 
 const Expert = ({expert}) => {
-    const {name, img} = expert;
+    const {name,description, img} = expert;
 
     return (
     
@@ -15,7 +15,7 @@ const Expert = ({expert}) => {
                                
                                 <div class="team-text">
                                     <h2>{name}</h2>
-                                    <p>Business Consultant</p>
+                                    <p>{description}</p>
                                     <div class="team-social">
                                         <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
                                         <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>

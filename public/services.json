@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Civil Law",
+    "price": "300",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "img": "https://i.ibb.co/6HS0tQW/portfolio-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Family Law",
+    "price": "100",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "img": "https://i.ibb.co/yPGQ4Wm/portfolio-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Business Law",
+    "price": "150",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "img": "https://i.ibb.co/M58tC4V/portfolio-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Education Law",
+    "price": "180",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "img": "https://i.ibb.co/BTHcTPy/portfolio-4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Criminal Law",
+    "price": "100",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "img": "https://i.ibb.co/ZMBHMzC/portfolio-5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cyber Law",
+    "price": "300",
+    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "img": "https://i.ibb.co/J2ZgR52/portfolio-6.jpg"
+  }
+]

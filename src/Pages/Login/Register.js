@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FloatingLabel, Form } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
-import auth from '../../firebase.init';
+import auth from '../../Firebase.init';
 import Loading from '../Shared/Loading/Loading';
 import SocialLogin from './SocialLogin/SocialLogin';
 

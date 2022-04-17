@@ -242,7 +242,7 @@ a:focus {
     display: none;
   }
 
-  .nav-bar a.nav-link {
+  .nav-bar to.nav-link {
     padding: 8px 15px;
     font-size: 15px;
     text-transform: uppercase;
@@ -256,7 +256,7 @@ a:focus {
     background: #121518 !important;
   }
 
-  .nav-bar a.nav-link {
+  .nav-bar .nav-link {
     padding: 5px;
   }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
-import auth from '../../../firebase.init';
+import auth from '../../../Firebase.init';
 import facebook from '../../../images/social/Facebook.png';
 import github from '../../../images/social/github.png';
 import google from '../../../images/social/google.png';

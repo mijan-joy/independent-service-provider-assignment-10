@@ -1,0 +1,56 @@
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+  position: relative;
+  width: 100%;
+  padding: 45px 0;
+}
+
+.about .section-header {
+  margin-bottom: 30px;
+}
+
+.about .about-img {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  background: #121518;
+}
+
+.about .about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .about-text p {
+  font-size: 16px;
+}
+
+.about .about-text button.btn {
+  position: relative;
+  margin-top: 15px;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aa9166;
+  border: 2px solid #aa9166;
+  border-radius: 0;
+  background: #121518;
+  transition: 0.3s;
+}
+
+.about .about-text button.btn:hover {
+  color: #121518;
+  background: #aa9166;
+}
+
+@media (max-width: 767.98px) {
+  .about .about-img {
+    margin-bottom: 30px;
+    height: auto;
+  }
+}
