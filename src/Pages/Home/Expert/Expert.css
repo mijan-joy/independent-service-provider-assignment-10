@@ -56,7 +56,7 @@
   left: 0;
 }
 
-.team .team-social a {
+.team .team-social sa {
   display: inline-block;
   margin-right: 15px;
   font-size: 18px;
@@ -65,10 +65,10 @@
   transition: 0.3s;
 }
 
-.team .team-social a:last-child {
+.team .team-social sa:last-child {
   margin-right: 0;
 }
 
-.team .team-social a:hover {
+.team .team-social sa:hover {
   color: #ffffff;
 }

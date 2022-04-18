@@ -1,8 +1,7 @@
 import { signOut } from "firebase/auth";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link } from "react-router-dom";
-import CustomLink from "../../CustomLink/CustomLink";
+import { Link, NavLink } from "react-router-dom";
 import auth from "../../Firebase.init";
 import "./Navbar.css";
 
@@ -74,24 +73,24 @@ const Navbar = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mr-auto">
-                <Link to="/" className="nav-item nav-link">
+                <NavLink style={({isActive})=>{return {borderBottom:  isActive ? '2px solid #aa9166' : ''}}} to="/" className="nav-item nav-link">
                   Home
-                </Link>
+                </NavLink>
 
-                <Link to="home#services" className="nav-item nav-link">
+                <NavLink style={({isActive})=>{return {borderBottom:  isActive ? '2px solid #aa9166' : ''}}} to="home#services" className="nav-item nav-link">
                   Services
-                </Link>
-                <Link className="nav-item nav-link" to="/about">
+                </NavLink>
+                <NavLink style={({isActive})=>{return {borderBottom:  isActive ? '2px solid #aa9166' : ''}}} className="nav-item nav-link" to="/about">
                   About
-                </Link>
+                </NavLink>
 
                 <Link to="/blog" className="nav-item nav-link ">
                   Blog
                 </Link>
 
-                <CustomLink to="/contact" className="nav-item nav-link">
+                <NavLink style={({isActive})=>{return {borderBottom:  isActive ? '2px solid #aa9166' : ''}}} to="/contact" className="nav-item nav-link">
                   Contact
-                </CustomLink>
+                </NavLink>
               </div>
               <div class="ml-auto">
               {

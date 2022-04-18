@@ -17,10 +17,10 @@ const Expert = ({expert}) => {
                                     <h2>{name}</h2>
                                     <p>{description}</p>
                                     <div class="team-social">
-                                        <a class="social-tw" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="social-fb" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-li" href=""><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-in" href=""><i class="fab fa-instagram"></i></a>
+                                        <sa class="social-tw" href=""><i class="fab fa-twitter"></i></sa>
+                                        <sa class="social-in" href=""><i class="fab fa-instagram"></i></sa>
+                                        <sa class="social-fb" href=""><i class="fab fa-facebook-f"></i></sa>
+                                        <sa class="social-li" href=""><i class="fab fa-linkedin-in"></i></sa>
                                     </div>
                                 </div>
                             </div>
