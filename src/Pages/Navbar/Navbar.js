@@ -35,18 +35,18 @@ const Navbar = () => {
                   <p>Call Us For Free Consultation</p>
                 </div>
                 <div class="social">
-                  <a href="">
+                  <Link to="">
                     <i class="fab fa-twitter"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link to="">
                     <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link to="">
                     <i class="fab fa-linkedin-in"></i>
-                  </a>
-                  <a href="">
+                  </Link>
+                  <Link to="">
                     <i class="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -74,20 +74,20 @@ const Navbar = () => {
               id="navbarCollapse"
             >
               <div className="navbar-nav mr-auto">
-                <CustomLink to="/" className="nav-item nav-link">
+                <Link to="/" className="nav-item nav-link">
                   Home
-                </CustomLink>
+                </Link>
 
-                <CustomLink to="home#services" className="nav-item nav-link">
+                <Link to="home#services" className="nav-item nav-link">
                   Services
-                </CustomLink>
-                <CustomLink className="nav-item nav-link" to="/about">
+                </Link>
+                <Link className="nav-item nav-link" to="/about">
                   About
-                </CustomLink>
+                </Link>
 
-                <CustomLink to="/blog" className="nav-item nav-link">
+                <Link to="/blog" className="nav-item nav-link ">
                   Blog
-                </CustomLink>
+                </Link>
 
                 <CustomLink to="/contact" className="nav-item nav-link">
                   Contact

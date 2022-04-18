@@ -42,7 +42,7 @@ const Register = () => {
     }
 
     return (
-        <div className="container w-50 mt-4 border p-5">
+        <div className="container w-50 mt-4 border p-5 bg-dark rounded">
             <h2  className="text-center text-primary border p-2">Please Register</h2>
 <form onSubmit={handleRegister}>
   <FloatingLabel

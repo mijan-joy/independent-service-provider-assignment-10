@@ -6,7 +6,7 @@ const CustomLink = ({children, to, props }: LinkProps) => {
     let match = useMatch({path: resolved.pathname, end: true});
     return (
         <div>
-            <Link style= { {borderBottom: match ? '3px solid orange' : 'none'} }
+            <Link style= { {borderBottom: match ? '3px solid orange padding:5px' : 'none', } }
             to= {to}
             {...props}>
                 {children}

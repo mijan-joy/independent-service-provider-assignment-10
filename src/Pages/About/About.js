@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../../images/profile.jpg';
 import './About.css';
 const About = () => {
     return (
@@ -8,7 +9,9 @@ const About = () => {
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-5 col-md-6">
-                            
+                            <div class="about_img">
+                                <img src={profile} alt=""/>
+                                </div>
                         </div>
                         <div class="col-lg-7 col-md-6">
                             <div class="section-header">

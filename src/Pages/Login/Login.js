@@ -7,10 +7,6 @@ import auth from "../../Firebase.init";
 import Loading from "../Shared/Loading/Loading";
 import SocialLogin from "./SocialLogin/SocialLogin";
 
-
-
-
-
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
@@ -63,7 +59,7 @@ const Login = () => {
     }
 
     return (
-        <div className="container w-50 mx-auto mt-5 border p-3">
+        <div className="container w-50 mx-auto mt-5 border p-3 bg-dark rounded">
             <h2 className="text-center text-primary border p-2">Please Login</h2>
         <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
