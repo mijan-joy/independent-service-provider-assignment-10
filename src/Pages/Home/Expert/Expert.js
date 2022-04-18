@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Expert.css';
 
 const Expert = ({expert}) => {
@@ -6,21 +7,25 @@ const Expert = ({expert}) => {
 
     return (
     
- <div class="col-lg-3 col-md-6">
-                            <div class="team-item">
+ <div className="col-lg-3 col-md-6">
+                            <div className="team-item">
 
-                            <div class="team-img">
+                            <div className="team-img">
                                 <img src={img} alt="" />
                             </div>
                                
-                                <div class="team-text">
+                                <div className="team-text">
                                     <h2>{name}</h2>
                                     <p>{description}</p>
-                                    <div class="team-social">
-                                        <sa class="social-tw" href=""><i class="fab fa-twitter"></i></sa>
-                                        <sa class="social-in" href=""><i class="fab fa-instagram"></i></sa>
-                                        <sa class="social-fb" href=""><i class="fab fa-facebook-f"></i></sa>
-                                        <sa class="social-li" href=""><i class="fab fa-linkedin-in"></i></sa>
+                                    <div className="team-social">
+                                        <NavLink
+                                         className="social-tw" to="/"><i className="fab fa-twitter"></i></NavLink>
+                                        <NavLink
+                                         className="social-in" to="/"><i className="fab fa-instagram"></i></NavLink>
+                                        <NavLink
+                                         className="social-fb" to="/"><i className="fab fa-facebook-f"></i></NavLink>
+                                        <NavLink
+                                         className="social-li" to="/"><i className="fab fa-linkedin-in"></i></NavLink>
                                     </div>
                                 </div>
                             </div>

@@ -18,12 +18,12 @@ const experts =[
 const Experts = () => {
     return (
 
-        <div class="team">
-                <div class="container">
-                    <div class="section-header">
+        <div className="team">
+                <div className="container">
+                    <div className="section-header">
                         <h2>Meet Our Expert Attorneys</h2>
                     </div>
-                    <div class="row">
+                    <div className="row">
                         
                     {
                     experts.map(expert => <Expert

@@ -9,27 +9,21 @@ const Service = ({service}) => {
         navigate(`/service/${id}`);
     };
     return (
-        // <div className="service border-primary">
-        //     <img src={img} alt="" />
-        //     <h2>{name}</h2>
-        //     <p>{price}</p>
-        //     <p><small>{description}</small></p>
-        //     <button onClick={()=> navigateToServicesDetails(id)} className="btn btn-primary">Book: {name}</button>
-        // </div>
+     
 
 
-<div class="col-lg-4 col-md-6">
-<div class="service-item">
-    <div class="service-icon">
-        <img class="service-icon" src={img} alt="" />
-        {/* <i class="fa fa-landmark"></i> */}
+<div className="col-lg-4 col-md-6">
+<div className="service-item">
+    <div className="service-icon">
+        <img className="service-icon" src={img} alt="" />
+        {/* <i className="fa fa-landmark"></i> */}
     </div>
     <h3>{name}</h3>
     <p>
         {description}
     </p>
     <p><small>{price}</small></p>
-    <button class="btn" onClick={()=> navigateToServicesDetails(id)}>Learn More</button>
+    <button className="btn" onClick={()=> navigateToServicesDetails(id)}>Learn More</button>
 </div>
 </div>
 

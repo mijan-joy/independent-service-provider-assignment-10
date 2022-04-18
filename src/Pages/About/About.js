@@ -5,26 +5,26 @@ const About = () => {
     return (
        <>
  <div>
-             <div class="about">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 col-md-6">
-                            <div class="about_img">
+             <div className="about">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-5 col-md-6">
+                            <div className="about_img">
                                 <img src={profile} alt=""/>
                                 </div>
                         </div>
-                        <div class="col-lg-7 col-md-6">
-                            <div class="section-header">
+                        <div className="col-lg-7 col-md-6">
+                            <div className="section-header">
                                 <h2>Learn About Us</h2>
                             </div>
-                            <div class="about-text">
+                            <div className="about-text">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem.
                                 </p>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
                                 </p>
-                                <button class="btn" href="">Learn More</button>
+                                <button className="btn" href="">Learn More</button>
                             </div>
                         </div>
                     </div>
