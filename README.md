@@ -1,8 +1,14 @@
-# Getting Started with Create React App
+# Kaunu law Service
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project  [Live Link ](https://kanun-assingment10.firebaseapp.com/).
+This project  [Github Link ](https://github.com/programming-hero-web-course-4/independent-service-provider-mijan-joy).
 
-## Available Scripts
+## Uses 
+    Bootstrap
+    react bootstrap
+    toast
+    firebase
+    react Router
 
 In the project directory, you can run:
 
