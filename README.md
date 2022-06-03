@@ -1,6 +1,7 @@
 # Kaunu law Service
 
-This project  [Live Link ](https://kanun-assingment10.firebaseapp.com/).
+This project  [Firebase Live Link ](https://kanun-assingment10.firebaseapp.com/).
+This project  [Netlify Live Link ](https://scintillating-baklava-fa9e24.netlify.app/).
 This project  [Github Link ](https://github.com/programming-hero-web-course-4/independent-service-provider-mijan-joy).
 
 ## Uses 
